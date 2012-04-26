@@ -1,6 +1,6 @@
 package tracer;
 
-// jar -cvfm <jarname> <manifestfilename> *.class
+/* Author: Terence Parr */
 
 public class MutableInt extends Number implements Comparable<Number> {
 	private static final long serialVersionUID = 1L;

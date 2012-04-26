@@ -1,5 +1,7 @@
 package tracer;
 
+/* Resource: http://www.antlr.org/wiki/display/CS345/Bytecode+instrumentation */
+
 import org.objectweb.asm.ClassVisitor;
 import org.objectweb.asm.MethodVisitor;
 import org.objectweb.asm.Opcodes;
