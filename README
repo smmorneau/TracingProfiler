@@ -6,9 +6,9 @@ Last updated: April 2012
 Summary:
 A profiler that reports on the number of method invocations, the total time 
     spent in each method, and the total number of object instantiations. 
-Uses the ASM library for bytecode transformations to inject code the start and 
-    stop of every method to track how long each method invocation takes, as
-    well as how many times the method is called. 
+Uses Java agents and the ASM library for bytecode transformations to inject 
+    code the start and stop of every method to track how long each method 
+    invocation takes, as well as how many times the method is called. 
 Also counts the number of objects of each type that are created.
 Uses a shutdown hook to correlate the data and output it to standard out.
 
